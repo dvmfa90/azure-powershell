@@ -1,3 +1,6 @@
+#
+# NOTE: You will noticed that besides getting the normal fields from the route table exported to the CSV you will have an extra TAB named Action. This extra TAB is to combine together with rt_manipulate.ps1 script where using this Action filed, you can type Add or Delete in the action Column in case you want to either add or delete Routes.
+#
 Write-Host '################################################' -fore yellow
 Write-Host 'EXPORT RT for Subscription into single file' -fore yellow
 Write-Host '################################################' -fore yellow
@@ -37,7 +40,8 @@ foreach ( $rt in $rtables )
         @{label = 'route name'; expression = { $_.Name } }, `
         @{label = 'Address Prefix'; expression = { $_.AddressPrefix } }, `
         @{label = 'Next Hop Type'; expression = { $_.NextHopType } }, `
-        @{label = 'Next Hop Ip'; expression = { $_.NextHopIpAddress } } | `
+        @{label = 'Next Hop Ip'; expression = { $_.NextHopIpAddress } }, `
+        @{label = 'Action'; expression = "Action"} | `
 
         Export-Csv -Path "$exportPath\$azSubName-routes.csv" -NoTypeInformation -Append -force
 
