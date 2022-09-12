@@ -9,6 +9,10 @@ The scripts: rt_exportrt_to_multiplefiles, rt_manipulate are handy together. The
     * Powershell
     * Powershell AZ-Modules
 
+# Glossary:
+
+    - RTs = Route Tables
+
 # How to run the scripts
 
     * Linux: Browse to the folder where the scripts are using your terminal and run: pwsh scriptname.ps1
