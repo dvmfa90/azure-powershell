@@ -24,11 +24,11 @@ Powershell scripts that interact with Azure RTs. Most of the scripts provided ar
 
     * rt_exportrt_to_multiplefiles.ps1:
 
-        This script will allow you to chose a subscription, and will export all RTs in that subscription to a .csv file per NSG.
+        This script will allow you to chose a subscription, and will export all RTs in that subscription to a .csv file per RT.
 
-    * rt_exportrt_to_singlefile.ps1:
+    * rt_exportrtg_to_singlefile.ps1:
 
-        Similar to the above one, but with one difference, rather than creating a .csv per RT it will put all the NSG rules in a single .csv file.
+        Similar to the above one, but with one difference, rather than creating a .csv per RT it will put all the RT rules in a single .csv file.
 
     * rt_list:
 
