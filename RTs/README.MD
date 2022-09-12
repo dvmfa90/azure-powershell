@@ -2,7 +2,7 @@
 
 Powershell scripts that interact with Azure RTs. Most of the scripts provided are interactive scripts. All scripts have comments with brief explanations of what the code does.
 
-The scripts: rt_exportrt_to_multiplefiles, rt_manipulate are handy together. The idea is to use rt_exportrt_to_multiplefiles to export RTs to .csv files(one per RT) so you get the current representation of the RT routes in the .CSV file. If you than want to manipulate it by either adding or remove routes, you can use the exported .CSV file, add either Add or Delete to the "Action" Column and then run the rt_manipulate.ps1 script that will import that CSV, look into the action filed and either add or delete routes.
+The scripts: rt_exportrt_to_multiplefiles, rt_manipulate are handy together. The idea is to use rt_exportrt_to_multiplefiles to export RTs to .csv files(one per RT) so you get the current representation of the RT routes in the .CSV file. If you than want to manipulate it by either adding or remove routes, you can use the exported .CSV file, add either Add or Delete to the "Action" Column and then run the rt_manipulate.ps1 script that will import that CSV, look into the action field and either add and/or delete routes.
 
 # Requirements:
 
