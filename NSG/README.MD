@@ -1,6 +1,6 @@
 # Description
 
-Powershell scripts that interact with Azure NSGs. Most of the scripts provided are interactive scripts.
+Powershell scripts that interact with Azure NSGs. Most of the scripts provided are interactive scripts. All scripts have comments with brief explanations of what the code does.
 
 # Requirements:
 
