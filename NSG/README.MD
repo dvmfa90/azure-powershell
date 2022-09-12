@@ -1,7 +1,3 @@
-TO DO:
-
-Describe each script
-
 # Description
 
 Powershell scripts that interact with Azure NSGs. Most of the scripts provided are interactive scripts.
