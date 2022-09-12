@@ -16,11 +16,11 @@ Powershell scripts that interact with Azure NSGs. Most of the scripts provided a
 
     * nsg_clone:
 
-        This cript will allow you to chose one NSG and clone it to another subscription/resource group/region or even to clone it to the same place but of course you need to give it a new name.
+        This script will allow you to chose one NSG and clone it to another subscription/resource group/region or even to clone it to the same place but of course you need to give it a new name.
 
     * nsg_delete:
 
-        This cript will allow you to chose one NSG and delete it.
+        This script will allow you to chose one NSG and delete it.
 
     * nsg_exportnsg_to_multiplefiles.ps1:
 
