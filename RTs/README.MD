@@ -45,3 +45,4 @@ The scripts: rt_exportrt_to_multiplefiles, rt_manipulate are handy together. The
 
 
     * Create a script similar to rt_manipulate where you can chose if you want to change one or multiple RTs. If you chose multiple, you could import a csv, add "Add" or "Delete" in front of the routes to either add or delete routes on multiple RTs
+    * Add a to the rt_manipulate an export of the route table to .csv with after changes status.
