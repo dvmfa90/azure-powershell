@@ -34,3 +34,6 @@ Powershell scripts that interact with Azure NSGs. Most of the scripts provided a
 
         This script will ask you to chose a subscription and will list all the NSGs in that subscription.
 
+# Ideas
+
+    * Due to my daily job, where I always need to consider replicating NSG rules from Primary region to DR region, an idea is to try to have a scripts for that, where it would need to know the primary region, the different address space in Primary region and DR region and automatically change the sources and destinations of the rules to refelect the DR region.

@@ -17,7 +17,6 @@ Get-AzSubscription | Format-List -Property Name,Id
 $azSubs = Read-Host -Prompt 'Subscription ID of NSG to clone'
 
 Set-AzContext -Subscription $azSubs
-
 # Below will list all the NSGs associated with the subscription you chose
 Get-AzNetworkSecurityGroup | Format-List -Property Name,ResourceGroupName,Location
 
