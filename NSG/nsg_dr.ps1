@@ -46,8 +46,6 @@ foreach ($nsgs in $azSubs) {
 
 
 
-
-
 # checks if nsg RG name contains primary region reference and if it does replaces that bit to DR region
 # Check if it works with Capital letters ex. UKS
 # might not need this in our work since rgs are always created following this
@@ -75,16 +73,7 @@ foreach ($nsgs in $azSubs) {
 
       }
 
-
-
-
-
     }
-
-
-
-
-
 
   # New-AzNetworkSecurityGroup -ResourceGroupName $dstRG -name $destNSG -Location $destNSGLocation -SecurityRules $NSG.SecurityRules
 }
